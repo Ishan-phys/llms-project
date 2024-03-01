@@ -1,13 +1,11 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='my_package',
+    name='medbot',
     version='0.1.0',
     author='Ishan Srivastava',
+    author_email='ishan.alld@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[
-        'langchain==0.1.0',
-        'python-dotenv==0.19.0'
-    ]
+    install_requires=[]
 )
