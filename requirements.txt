@@ -1,7 +1,7 @@
 ctransformers==0.2.27
 sentence-transformers==2.3.1 #For creating sentence embeddings
-pinecone-client==3.1.0
+langchain-pinecone
 langchain==0.1.8
 python-dotenv==1.0.1
-PyPDF2==3.0.1
 flask==3.0.2
+pypdf
